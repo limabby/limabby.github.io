@@ -189,5 +189,10 @@ footer {
   }
   img {
     height: 50vh;
+
   }
+}
+
+.link{
+  text-decoration: none;
 }
