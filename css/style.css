@@ -19,10 +19,11 @@ header, footer {
 
 /* Changed header color and default font, set height to full screen height, set display to flex in order to easily center contents. (We could also use grid, but I went with flex since we only have a single column.)  Also set the font-family to Work Sans. Remember, the cascade in "Cascading Style Sheets" means that these font settings will flow down into everything inside the wrapper unless we override it--which we do with h1 */
 header {
-  font-family: Work Sans;
+  font-family: 'Libre Franklin', sans-serif;
   color: white;
   min-height: 100vh;
   display: flex;
+
 }
 
 main {
@@ -39,22 +40,24 @@ main {
 
 /* Added h1 definition. Notice the font size calculation. This calc sets the font size at AT LEAST 1.93em, then adds 2% of the view width per character (approx.) */
 h1 {
-  font-family: Poppins;
+  font-family: 'Roboto', sans-serif;
   font-size: calc(1em + 3vw);
   padding-bottom: .67em;
   border-bottom: 1px solid;
   line-height: 1.3;
+  text-transform: uppercase;
 }
 
 h2 {
-  font-family: Poppins;
-  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
   font-weight: 600;
   letter-spacing: 0.3px;
   text-align: left;
   color: #8B85C1;
   padding: 10px 0px 10px 10px;
   text-decoration: none;
+  text-transform: uppercase;
 }
 
 img {
@@ -73,8 +76,8 @@ img {
 
 .bio {
   color: white;
-  font-size: 24px;
-  font-family: 'Work Sans';
+  font-size: 20px;
+  font-family: 'Libre Franklin', sans-serif;
 }
 
 /* Added a button and a box for that button. The "flex" makes it easier to center the button. If you don't want the button centered, you could remove it */
@@ -119,7 +122,7 @@ img {
 
 .reference {
   text-align: center;
-  font-family: Work Sans;
+  font-family: 'Libre Franklin', sans-serif;
   font-size: 10px;
 }
 .time {
@@ -131,19 +134,19 @@ img {
 
 .mins {
   display: inline-block;
-  font-family: Poppins;
-  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
   font-weight: 500;
   letter-spacing: 0.3px;
   text-align: left;
   color: #4A4A4A;
   position: relative;
   bottom: 5px;
+  text-transform: uppercase;
 }
 
 .description {
-  font-family: Work Sans;
-  font-size: 14px;
+  font-family: 'Libre Franklin', sans-serif;
   font-weight: 300;
   line-height: 1.29;
   letter-spacing: 0.1px;
@@ -169,7 +172,7 @@ img {
 footer {
   margin-top: 44px;
   height: 60px;
-  font-family: Poppins;
+  font-family: 'Roboto', sans-serif;
   color: white;
   text-align: left;
   font-size: 30px;
@@ -185,9 +188,13 @@ footer {
     grid-template-columns: 1fr;
   }
   .description {
-    font-size: 18px;
+    font-size: 15px;
   }
   img {
     height: 50vh;
   }
+}
+a {
+  color: #8B85C1;
+  text-decoration: none;
 }
