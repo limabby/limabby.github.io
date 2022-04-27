@@ -135,7 +135,7 @@ img {
 .mins {
   display: inline-block;
   font-family: 'Roboto', sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 500;
   letter-spacing: 0.3px;
   text-align: left;
@@ -147,11 +147,11 @@ img {
 
 .description {
   font-family: 'Libre Franklin', sans-serif;
-  font-weight: 300;
-  line-height: 1.29;
+  font-weight: bold;
+  font-size: 15px;
   letter-spacing: 0.1px;
   text-align: left;
-  color: #4a4a4a;
+  color: #4A4A4A;
   padding: 10px 0px 10px 10px;
   border-top: 1px solid #4a4a4a;
 }
@@ -169,18 +169,16 @@ img {
   margin: auto;
 }
 
-footer {
-  margin-top: 44px;
-  height: 60px;
+footer div {
+  height: 100%;
   font-family: 'Roboto', sans-serif;
-  color: white;
-  text-align: left;
-  font-size: 30px;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 17px;
   letter-spacing: 2px;
   font-weight: bold;
   display: flex;
-  align-items: center;
-  padding: 10px 30px;
+  align-content: center;
+  padding: 10px 20px;
 }
 
 @media all and (max-width:700px) {
