@@ -106,19 +106,12 @@ img {
 	position:relative;
 	top:1px;
 }
-.link {
+.project {
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.5);
   width: 100%;
   background-color: #D4CDF4;
 }
 
-.a {
-
-}
-
-.c {
-
-}
 
 .reference {
   text-align: center;
@@ -154,13 +147,6 @@ img {
   color: #4A4A4A;
   padding: 10px 0px 10px 10px;
   border-top: 1px solid #4a4a4a;
-}
-
-.logo {
-  width: 115px;
-  height: 21.1px;
-  object-fit: contain;
-  padding: 20px;
 }
 
 /* Removed min-width because some mobile screens are smaller than 500px */
