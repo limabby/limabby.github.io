@@ -12,7 +12,10 @@ body {
 /* Removed min-width because some phones are narrower than 500px */
 
 header, footer {
-  background-color: #8B85C1;
+  background: #E8CBC0;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #636FA4, #E8CBC0);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #636FA4, #E8CBC0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   text-align: left;
 /*  min-width: 500px; */
 }
@@ -54,7 +57,7 @@ h2 {
   font-weight: 600;
   letter-spacing: 0.3px;
   text-align: left;
-  color: #8B85C1;
+  color: white;
   padding: 10px 0px 10px 10px;
   text-decoration: none;
   text-transform: uppercase;
@@ -99,7 +102,7 @@ img {
 }
 
 .myButton:hover {
-	background-color: #7A6F9B;
+	background-color: #E8CBC0;
 }
 
 .myButton:active {
@@ -109,7 +112,7 @@ img {
 .project {
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.5);
   width: 100%;
-  background-color: #D4CDF4;
+  background-color: #636FA4;
 }
 
 
@@ -118,25 +121,6 @@ img {
   font-family: 'Libre Franklin', sans-serif;
   font-size: 10px;
 }
-.time {
-  padding-left: 10px;
-  padding-top: 10px;
-  width: 20px;
-  height: auto;
-}
-
-.mins {
-  display: inline-block;
-  font-family: 'Roboto', sans-serif;
-  font-size: 18px;
-  font-weight: 500;
-  letter-spacing: 0.3px;
-  text-align: left;
-  color: #4A4A4A;
-  position: relative;
-  bottom: 5px;
-  text-transform: uppercase;
-}
 
 .description {
   font-family: 'Libre Franklin', sans-serif;
@@ -144,7 +128,7 @@ img {
   font-size: 15px;
   letter-spacing: 0.1px;
   text-align: left;
-  color: #4A4A4A;
+  color: white;
   padding: 10px 0px 10px 10px;
   border-top: 1px solid #4a4a4a;
 }
@@ -179,6 +163,6 @@ footer div {
   }
 }
 a {
-  color: #8B85C1;
+  color: white;
   text-decoration: none;
 }
